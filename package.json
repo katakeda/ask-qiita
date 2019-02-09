@@ -1,0 +1,20 @@
+{
+    "name": "ask-qiita",
+    "main": "./lib/ask-qiita",
+    "version": "0.0.0",
+    "description": "Ask Qiita when you need help!",
+    "keywords": [],
+    "activationCommands": {
+        "atom-workspace": "ask-qiita:search"
+    },
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+        "bootstrap": "^4.2.1",
+        "jquery": "^3.3.1",
+        "popper.js": "^1.14.6",
+        "showdown": "^1.9.0"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "context-menu": {
+        "atom-text-editor": [
+            {
+                "label": "Toggle ask-qiita",
+                "command": "ask-qiita:toggle"
+            },
+            {
+                "label": "Search ask-qiita",
+                "command": "ask-qiita:search"
+            }
+        ]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "ask-qiita",
+            "submenu": [
+                {
+                    "label": "Toggle",
+                    "command": "ask-qiita:toggle"
+                },
+                {
+                    "label": "Search",
+                    "command": "ask-qiita:search"
+                }
+            ]
+        }]
+    }]
+}
