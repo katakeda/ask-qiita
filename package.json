@@ -3,7 +3,7 @@
     "main": "./lib/ask-qiita",
     "version": "0.0.0",
     "description": "Ask Qiita when you need help!",
-    "keywords": [],
+    "repository": "https://github.com/katakeda/ask-qiita",
     "activationCommands": {
         "atom-workspace": "ask-qiita:search"
     },
